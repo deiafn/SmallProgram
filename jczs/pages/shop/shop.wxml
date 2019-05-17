@@ -1,0 +1,27 @@
+<view class='ss'>
+  <view class='in_1'>
+    <text class='checkAll' bindtap='select'>全选</text>
+    <view bindtap='empty'><image src='../image/4.gif'></image>清空购物车</view>
+  </view>
+  <view class='in_2'>
+    <checkbox-group>
+      <block wx:for="{{shopping}}" data-index="{{index}}">
+        <view class='in_21' bindtap='loadDetail' id='{{item.id}}'>
+          <checkbox value='1' checked='{{CheckAll}}'/><image src='{{item.img}}'></image>
+          <view>
+            <view>{{item.name}}</view>
+            <view class='modified'>￥{{item.price}}
+              <text bindtap='reduce' data-index="{{index}}">-</text>
+              <input type='number' value='{{item.num}}'></input>
+              <text bindtap='plus' data-index="{{index}}">+</text></view>
+          </view>
+        </view>
+      </block>
+    </checkbox-group>
+  </view>
+  <view class='in_3'>
+    <image src='../image/5.gif'></image>
+    <view>总计：<text>￥{{total}}.00</text></view>
+    <text bindtap='empty'>去结算</text>
+  </view>
+</view>

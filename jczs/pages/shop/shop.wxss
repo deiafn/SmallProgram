@@ -1,0 +1,125 @@
+.ss{
+  position: fixed;
+  background: #f1f1f1;
+  width: 100%;
+  height: 100%;
+}
+.in_1{
+  margin-top: 10rpx;
+  background: #fff;
+  line-height: 74rpx;
+  margin-bottom: 14rpx;
+}
+.in_1 text{
+  margin-left: 22rpx;
+  font-size: 24rpx;
+}
+.in_1 image{
+  width: 28rpx;
+  height: 28rpx;
+  float: left;
+  margin-top: 23rpx;
+  margin-right: 5rpx;
+}
+.in_1 view{
+  margin-right: 24rpx;
+  float: right;
+  font-size: 20rpx;
+  color: #959595;
+}
+.in_2{
+  background: #fff;
+}
+.in_21{
+  display: flex;
+  padding: 24rpx;
+  border-bottom: 2rpx solid #e7e7e7;
+}
+.in_21 checkbox{
+  margin-top: 50rpx;
+  margin-right: 22rpx;
+  border-radius: 50rpx;
+}
+.in_21 image{
+  border-radius: 5px;
+  width: 140rpx;
+  height: 140rpx;
+}
+checkbox .wx-checkbox-input{
+border-radius: 50rpx;
+height: 38rpx;
+width: 38rpx;
+margin-top: -4rpx;
+}
+checkbox .wx-checkbox-input.wx-checkbox-input-checked::before{
+margin-top: -2rpx;
+margin-left: -1rpx;
+border-radius: 50rpx;
+background-color: red;
+border: 5rpx solid red;
+}
+.in_21>view{
+  margin-left: 12rpx;
+}
+.in_21>view view:nth-of-type(1){
+  font-size: 24rpx;
+  line-height: 38rpx;
+  height: 76rpx;
+}
+.in_21 .modified{
+  font-size: 22rpx;
+  margin-top: 20rpx;
+  color: red;
+  display: flex;
+}
+.modified text{
+  border-radius: 50px;
+  border: 1rpx  solid red;
+  width: 44rpx;
+  height: 44rpx;
+  text-align: center;
+  font-size: 50rpx;
+  line-height: 40rpx;
+}
+.modified text:nth-of-type(1){
+  margin-left: 250rpx;
+}
+.modified text:nth-of-type(2){
+  color: #fff;
+  background: red;
+}
+.modified input{
+  width: 46rpx;
+  text-align: center;
+}
+.in_3{
+  position: fixed;
+  line-height: 108rpx;
+  background: #fff;
+  display: flex;
+  bottom: 0;
+  width: 100%;
+}
+.in_3 image{
+  margin-top: 11rpx;
+  margin-left: 32rpx;
+  width: 89rpx;
+  height: 89rpx;
+}
+.in_3 view{
+  margin-left: 49rpx;
+  font-size: 28rpx;
+}
+.in_3 view text{
+  color: red;
+}
+.in_3>text{
+  position: fixed;
+  right: 0;
+  line-height: 108rpx;
+  text-align: center;
+  font-size: 28rpx;
+  padding: 0 74rpx;
+  background: red;
+  color: #fff;
+}

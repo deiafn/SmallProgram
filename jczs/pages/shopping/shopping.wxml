@@ -1,0 +1,5 @@
+<view class="in_1" hidden='{{inS1}}'>
+  <image src='{{onSrc}}'></image>
+  <view>{{onText}}</view>
+  <button bindtap='navBtn' hidden='{{inShow}}'>极速登录</button>
+</view>

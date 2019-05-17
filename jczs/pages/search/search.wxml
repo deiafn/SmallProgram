@@ -1,0 +1,28 @@
+<view class='in_1'>
+  <view class='in_11'>
+    <input type='text' placeholder='搜索' value='{{value}}'></input>
+    <button bindtap='ss'>搜索</button>
+    <image src='../image/index/16.gif'></image>
+  </view>
+  <view class='in_12' catchtap='changeOil'>
+    <view class='{{num==1?"active":""}}' data-num='1'>全部</view>
+    <view class='{{num==2?"active":""}}' data-num='2'>店铺</view>
+  </view>
+</view>
+<view class='in_13' hidden='{{isT}}'>
+    <view>销量优先</view>
+    <view>好评最高</view>
+    <view>价格<image src='../image/index/14.gif'></image></view>
+    <view>筛选</view>
+  </view>
+<view class='in_3' hidden='{{isT}}'>
+  <block wx:for="{{inst}}">
+    <view class='item' bindtap='detailsBtn' id='{{index}}'>
+      <image src='{{item.img}}'></image>
+      <view>{{item.name}}</view>
+      <view>{{item.shop}}</view>
+      <view><text>￥{{item.price}}</text>已售{{item.sold}}件</view>
+      <view>{{item.evaluate}}条评价{{item.praise}}%好评</view>
+    </view>
+  </block>
+</view>

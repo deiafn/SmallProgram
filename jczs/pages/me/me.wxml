@@ -1,0 +1,37 @@
+<view class='in_1'>
+  <view>
+    <image src='{{userInfo.avatarUrl}}'></image>
+    <text>{{userInfo.nickName}}</text>
+    <text>绑定手机></text>
+  </view>
+</view>
+<view class='in_2'>
+  <view id='0' bindtap='see'>我的订单<image src='../image/index/8.gif'></image><text>查看全部</text></view>
+  <view class='in_3'>
+    <view id='1' bindtap='see'><image src='../image/me/1.gif'></image><view>待付款</view></view>
+    <view id='2' bindtap='see'><image src='../image/me/2.gif'></image><view>待发货</view></view>
+    <view id='3' bindtap='see'><image src='../image/me/3.gif'></image><view>待收货</view></view>
+    <view id='4' bindtap='see'><image src='../image/me/4.gif'></image><view>待评价</view></view>
+    <view bindtap='refund'><image src='../image/me/5.gif'></image><view>退款</view></view>
+  </view>
+</view>
+<view class='in_4'>
+  <view bindtap='balance'><image src='../image/me/6.gif'></image><view>我的余额</view></view>
+  <view bindtap='collection'><image src='../image/me/7.gif'></image><view>我的收藏</view></view>
+  <view bindtap='coupon'><image src='../image/me/8.gif'></image><view>优惠券</view></view>
+  <view bindtap='vip'><image src='../image/me/9.gif'></image><view>会员卡</view></view>
+  <view bindtap='integral'><image src='../image/me/10.gif'></image><view>我的积分</view></view>
+  <view bindtap='gift'><image src='../image/me/11.gif'></image><view>我的礼品卡</view></view>
+  <view bindtap='reservation'><image src='../image/me/12.gif'></image><view>我的预约</view></view>
+  <view bindtap='evaluate'><image src='../image/me/13.gif'></image><view>我的评价</view></view>
+  <view bindtap='distributor'><image src='../image/me/14.gif'></image><view>分销员中心</view></view>
+  <view bindtap='assemble'><image src='../image/me/15.gif'></image><view>我的拼团</view></view>
+  <view bindtap='hotel'><image src='../image/me/16.gif'></image><view>我的酒店</view></view>
+  <view bindtap='restaurant'><image src='../image/me/17.gif'></image><view>我的餐饮</view></view>
+  <view bindtap='subcard'><image src='../image/me/18.gif'></image><view>次卡</view></view>
+  <view bindtap='automobile'><image src='../image/me/19.gif'></image><view>汽车服务</view></view>
+  <view bindtap='supplydemand'><image src='../image/me/20.gif'></image><view>我的供求</view></view>
+  <view bindtap='live'><image src='../image/me/21.gif'></image><view>我的直播</view></view>
+  <view bindtap='customer'><image src='../image/me/22.gif'></image><view>客服</view></view>
+  <view bindtap='telephone'><image src='../image/me/23.gif'></image><view>电话</view></view>
+</view>

@@ -1,0 +1,116 @@
+.in_main{
+  background: #f1f1f1;
+}
+.in_1{
+  line-height: 82rpx;
+  font-size: 25rpx;
+  background: #fff;
+  text-indent: 25rpx;
+}
+.in_1 image,.in_3 view:nth-of-type(4) image,.in_4 view image{
+  width: 13rpx;
+  height: 23rpx;
+  float: right;
+  margin-top: 30rpx;
+  margin-right: 23rpx;
+}
+.in_2{
+  margin-bottom: 18rpx;
+  font-size: 0;
+}
+.in_2 image{
+  height: 7rpx;
+  width: 100%;
+}
+.in_3,.in_4{
+  background: #fff;
+  margin-bottom: 18rpx;
+}
+.in_3 view:nth-of-type(1){
+  border-bottom: 1rpx solid #ededed;
+  text-indent: 30rpx;
+  font-size: 25rpx;
+  line-height: 76rpx;
+}
+.in_3 view:nth-of-type(2){
+  border-bottom: 1rpx solid #ededed;
+  padding: 28rpx 22rpx;
+}
+.in_3 view:nth-of-type(2) image{
+  width: 118rpx;
+  height: 118rpx;
+  border: 1rpx solid #ededed;
+}
+.in_3 view:nth-of-type(2) text{
+  float: right;
+  margin-top: 50rpx;
+  margin-right: 14rpx;
+  font-size: 24rpx;
+}
+.in_3 view:nth-of-type(3){
+  border-bottom: 1rpx solid #ededed;
+  line-height: 94rpx;
+  font-size: 25rpx;
+  padding: 0 7rpx 0 32rpx;
+}
+.in_3 view:nth-of-type(3) text{
+  padding: 0 18rpx;
+  line-height: 56rpx;
+  float: right;
+  margin-top: 19rpx;
+  margin-right: 15rpx;
+}
+.in_3 view:nth-of-type(3) text:nth-of-type(2){
+  color: #fff;
+  background: red;
+}
+.in_3 view:nth-of-type(3) text:nth-of-type(1){
+  background: #f0f0f0;
+}
+.in_3 view:nth-of-type(4){
+  line-height: 74rpx;
+  font-size: 25rpx;
+  padding: 0 24rpx;
+}
+.in_4{
+  background: #fff;
+  font-size: 25rpx;
+  line-height: 74rpx;
+}
+.in_4 view{
+  font-size: 25rpx;
+  line-height: 74rpx;
+  border-bottom: 1rpx solid #ededed;
+  padding-left: 24rpx;
+}
+.in_4 view text{
+  float: right;
+  font-size: 20rpx;
+  margin-right: 19rpx;
+}
+.in_4 view .red{
+  color: red;
+}
+.in_8{
+  position: fixed;
+  bottom: 0;
+  line-height: 98rpx;
+  background: #fff;
+  width: 100%;
+}
+.in_8>text{
+font-size: 22rpx;
+margin-left: 276rpx;
+}
+.in_8>text text{
+  font-size: 38rpx;
+  color: red;
+}
+.in_8 button{
+  float: right;
+  background: red;
+  color: #fff;
+  width: 250rpx;
+  border: 0;
+  border-radius: 0;
+}

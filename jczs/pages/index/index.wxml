@@ -1,0 +1,61 @@
+<view class='in_1'>
+  <view class='in_11' bindtap='bindBeginCityView'>{{city}}<image src='../image/index/10.gif'></image></view>
+  <view class='in_12' bindtap='ss'><input type='text' placeholder='请输入商品、店铺'/><image src='../image/index/11.gif'></image></view>
+</view>
+  <view class="haibao">
+    <swiper indicator-dots='{{indicatorDots}}' autoplay='{{autoplay}}' interval='{{interval}}' duration='{{duration}}'>
+      <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image src="{{item}}" class="silde-image"></image>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+<view class='nav'>
+      <block wx:for="{{navs}}">
+        <view class='item' bindtap='navBtn' id='{{index}}'>
+          <view>
+            <image src="{{item.img}}"></image>
+          </view>
+          <view>
+            {{item.name}}
+          </view>
+        </view>
+      </block>
+</view>
+<view class='in_2'><image src='../image/index/12.gif'></image>装修推荐<image src='../image/index/8.gif'></image></view>
+<view class='in_3'>
+  <view><view>现代简约风</view><image src='../image/10.jpg'></image></view>
+  <view><image src='../image/11.jpg'></image><view class='bj_1'>地中海风</view></view>
+  <view><view>新古典风</view><image src='../image/12.jpg'></image></view>
+  <view><image src='../image/13.jpg'></image><view class='bj_1'>奢华欧式风</view></view>
+</view>
+<view class='img_1'><image src='../image/mmexport1555635868912.jpg'></image></view>
+<view class='in_4' catchtap='changeOil'>
+  <view class='{{num==1?"yes_1":""}}' data-num='1'>销量最高</view>
+  <view class='{{num==2?"yes_1":""}}' data-num='2'>距离最近</view>
+  <view class='{{num==3?"yes_1":""}}' data-num='3'>好评最高</view>
+  <view class='{{num==4?"yes_1":""}}' data-num='4'>筛选</view>
+</view>
+<view class='in_5'>
+  <view class='in_51'><image src='../image/index/13.gif'></image></view>
+  <view class='in_52'>
+    <view>洞庭木业</view>
+    <view>已售0单｜距离21.246km</view>
+    <view>0条评价0%好评</view>
+    <view><image src='../image/in/15.jpg'></image><image src='../image/in/16.jpg'></image><image src='../image/in/17.jpg'></image><image src='../image/in/18.jpg'></image></view>
+    <view><view>￥20</view><view>￥55</view><view>￥55</view><view>￥55</view></view>
+  </view>
+</view>
+<view class='in_6'>
+  <block wx:for="{{inst}}">
+    <view class='item' bindtap='detailsBtn' id='{{index}}'>
+      <image src='{{item.img}}'></image>
+      <view>{{item.name}}</view>
+      <view><image src='../image/index/4.gif'></image>{{item.shop}}</view>
+      <view><text>￥{{item.price}}</text>已售{{item.sold}}件</view>
+      <view>{{item.evaluate}}条评价{{item.praise}}%好评</view>
+    </view>
+  </block>
+<view class='in_7'>查看更多<image src='../image/index/9.gif'></image></view>
+</view>

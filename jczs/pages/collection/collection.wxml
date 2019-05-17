@@ -1,0 +1,13 @@
+<view style='height:{{height}}rpx;background:#f1f1f1;'>
+  <view class='in_1'>
+    <view>商品</view>
+    <view>店铺</view>
+  </view>
+  <view class='in_2'>
+    <view class='{{num==1?"active":""}}' data-num='1'>销量</view>
+    <view class='{{num==2?"active":""}}' data-num='2'>新品</view>
+    <view class='{{num==3?"active":""}}' data-num='3'>价格<image src='../image/index/14.gif'></image></view>
+    <view><image src='../image/me/24.gif'></image></view>
+  </view>
+  <view class='in_3'>暂无商品</view>
+</view>

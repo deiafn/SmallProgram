@@ -1,0 +1,12 @@
+
+.in_1{
+  text-align: center;
+  font-size: 24rpx;
+  
+}
+.in_1 image{
+  margin-top: 172rpx;
+  width: 215rpx;
+  height: 215rpx;
+  margin-bottom: 50rpx;
+}

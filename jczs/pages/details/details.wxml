@@ -1,0 +1,39 @@
+<view class='main'>
+  <view class='in_1'>
+    <image src='{{img}}'></image>
+  </view>
+  <view class='in_2'>
+    {{name}}<view><image src='../image/index/1.gif'></image><view>分享</view></view>
+    <view><view>已售{{sold}}件</view><view>￥{{price}}</view></view>
+  </view>
+  <view class='in_3' style='margin: 12rpx 0;'><text>规格/数量</text><image src='../image/index/8.gif'></image></view>
+  <view class='in_3'><text>配送</text><view>门店周边100分里范围内</view></view>
+  <view class='in_3'><text>运费</text><view>￥0.00</view></view>
+  <view class='in_4' style='margin: 12rpx 0;'>
+    <image src='../image/index/2.gif'></image>
+    <image src='../image/index/3.gif'></image>
+    <view>{{shop}}</view>
+  </view>
+  <view class='in_5'>商品详情</view>
+  <view class='in_6'>{{name}}</view>
+</view>
+<view class='in_0'>
+  <view class='in_s0'><image src='../image/index/4.gif'></image><view>店铺</view></view>
+  <view class='in_s0'><image src='../image/index/5.gif'></image><view>电话</view></view>
+  <view class='in_s0'><image src='../image/index/6.gif'></image><view>客服</view></view>
+  <view class='in_s0'><image src='../image/index/7.gif'></image><view>收藏</view></view>
+  <button bindtap='shoppingCart'>加入购物车</button><button bindtap='purchase'>立即购买</button>
+</view>
+<view class='in_8' hidden='{{inHide}}'>
+  <view class='in_81'>
+    <image src='{{img}}'></image><image src='../image/3.gif' bindtap='shoppingClose'></image>
+    <view>￥{{price}}</view>
+    <view>库存999件</view>
+    <view>购买数量
+      <text bindtap='reduce'>-</text>
+      <input type='number' value='{{num}}'></input>
+      <text bindtap='plus'>+</text>
+    </view>
+  </view>
+  <view class='in_82' bindtap='shoppingDete'>确定</view>
+</view>

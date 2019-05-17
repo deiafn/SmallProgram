@@ -1,0 +1,11 @@
+/* pages/integral/integral.wxss */
+.in_1 image{
+  margin-top: 292rpx;
+  width: 100%;
+  height: 300rpx;
+}
+.in_1 view{
+  text-align: center;
+  font-size: 25rpx;
+  line-height: 52rpx;
+}

@@ -1,0 +1,61 @@
+.a-z{
+  width: 40rpx;
+  position: fixed;
+  top: 210rpx;
+  text-align: center;
+  right: 3rpx;
+  color: #a0a0a0;
+  font-size: 18rpx;
+  line-height: 30rpx;
+}
+
+
+.city-item-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 62rpx;
+  background-color: #FFFFFF;
+}
+
+.city-item {
+  background: #fff;
+  padding-left: 40rpx;
+  height: 78rpx;
+  font-size: 21rpx;
+  line-height: 78rpx;
+  border-bottom: 1rpx solid #CCCCCC;    
+}
+
+.city-item-A-Z{
+  width: 100%;
+  height: 50rpx;
+  line-height: 50rpx;
+  font-size: 20rpx;
+  padding-left: 33rpx;
+  background-color: #f5f5f5;
+  border-top: 1rpx solid #CCCCCC;    
+  margin-top: -1rpx;
+}
+
+
+.search-box {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  background: #fff;
+  font-size: 20rpx;
+  border-bottom:1rpx solid #DDDDDD;
+}
+
+.search-input {
+  margin: 9rpx 78rpx;
+  height: 42rpx;
+  line-height: 42rpx;
+  border-radius: 10rpx;
+  background: #eeeeee;
+}
+
+.search-input-placeholder {
+  text-align: center;
+}

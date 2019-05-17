@@ -1,0 +1,11 @@
+<view style='height:{{height}}rpx;background:#f1f1f1;'>
+  <view class="in_1">
+    <view>我的余额(元)</view>
+    <view>0<button>充值</button></view>
+  </view>
+  <view class='in_2' catchtap='changeOil'>
+    <view class='{{num==1?"active":""}}' data-num='1'>全部</view>
+    <view class='{{num==2?"active":""}}' data-num='2'>充值</view>
+    <view class='{{num==3?"active":""}}' data-num='3'>消费</view>
+  </view>
+</view>

@@ -1,0 +1,70 @@
+<view class="in_1">
+  <view class='in_11'>
+    <view bindtap='navBtn'>板材<image src='../image/index/8.gif'></image></view>
+    <view bindtap='navBtn'>
+      <text>多层板</text>
+      <text>硅钙板</text>
+      <text>石膏板</text>
+      <text>生态板</text>
+      <text>面板</text>
+      <text>木芯板</text>
+      <text>密度板</text>
+    </view>
+  </view>
+  <view class='in_11' bindtap='navBtn'>
+    <view>扣扳<image src='../image/index/8.gif'></image></view>
+  </view>
+  <view class='in_11' bindtap='navBtn'>
+    <view>辅料<image src='../image/index/8.gif'></image></view>
+  </view>
+  <view class='in_11' bindtap='navBtn'>
+    <view>五金配件<image src='../image/index/8.gif'></image></view>
+    <view>
+      <text>穿衣镜</text>
+      <text>门锁</text>
+      <text>轨道</text>
+      <text>钉枪／胶枪</text>
+      <text>钉子</text>
+      <text>门吸</text>
+      <text>合页／链</text>
+      <text>其他</text>
+      <text>挂衣杆</text>
+      <text>裤架</text>
+      <text>柜脚</text>
+      <text>拉手</text>
+    </view>
+  </view>
+  <view class='in_11' bindtap='navBtn'>
+    <view>生态线条<image src='../image/index/8.gif'></image></view>
+    <view>
+      <text>顶角线</text>
+      <text>40封顶带</text>
+      <text>其他</text>
+      <text>17卡线</text>
+      <text>罗马柱</text>
+      <text>收口条</text>
+      <text>34卡线</text>
+      <text>压线</text>
+      <text>6门套</text>
+      <text>20封边带</text>
+    </view>
+  </view>
+  <view class='in_11' bindtap='navBtn'>
+    <view>胶类<image src='../image/index/8.gif'></image></view>
+    <view>
+      <text>泡沫胶</text>
+      <text>瓷白胶</text>
+      <text>免钉胶</text>
+      <text>结构胶</text>
+      <text>乳胶</text>
+      <text>玻璃胶</text>
+    </view>
+  </view>
+  <view class='in_11' bindtap='navBtn'>
+    <view>木线条<image src='../image/index/8.gif'></image></view>
+    <view>
+      <text>门套</text>
+      <text>木方</text>
+    </view>
+  </view>
+</view>

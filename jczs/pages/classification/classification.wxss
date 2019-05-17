@@ -1,0 +1,42 @@
+.in_1 .in_11{
+  font-size: 24rpx;
+  text-indent: 28rpx;
+  border-bottom: 2rpx solid #ededed;
+}
+.in_11 image{
+  width: 10rpx;
+  height: 18rpx;
+  float: right;
+  margin-top: 33rpx;
+  margin-right: 32rpx;
+}
+.in_11 view:nth-of-type(1){
+  line-height: 82rpx;
+  height: 82rpx;
+  border-right: 9rpx solid #ededed;
+}
+.in_11 view:nth-of-type(1):hover{
+  color: red;
+  border-right: 4rpx solid #ededed;
+  border-left: 5rpx solid red;
+}
+.in_11 view:nth-of-type(2){
+  border-top: 0.1rpx solid #ededed;
+  display: flex;
+  flex-wrap: wrap;
+}
+.in_11 text{
+  margin: 12.5rpx 16.5rpx;
+  display: block;
+  font-size: 22rpx;
+  line-height: 63rpx;
+  height: 63rpx;
+  background: #f7f7f7;
+  width: 342rpx;
+  text-align: center;
+}
+.in_11 text:hover{
+  height: 60rpx;
+  line-height: 63rpx;
+  border-bottom: 3rpx solid red;
+}

@@ -1,0 +1,19 @@
+.in_1{
+  text-align: center;
+  font-size: 24rpx;
+}
+.in_1 image{
+  margin-top: 172rpx;
+  width: 215rpx;
+  height: 215rpx;
+  margin-bottom: 50rpx;
+}
+.in_1 button{
+  width: 356rpx;
+  line-height: 85rpx;
+  margin-top: 80rpx;
+  font-size: 24rpx;
+  border: 1rpx solid #e31414;
+  background: #f22222;
+  color: #fff;
+}

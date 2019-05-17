@@ -1,0 +1,38 @@
+.in_1{
+  height: 220rpx;
+  padding: 30rpx;
+  background: #fff;
+  margin-bottom: 19rpx;
+}
+.in_1 view:nth-of-type(1){
+  font-size: 20rpx;
+}
+.in_1 view:nth-of-type(2){
+  margin-top: 46rpx;
+  font-size: 50rpx;
+}
+.in_1 view:nth-of-type(2) button{
+  line-height: 55rpx;
+  font-size: 20rpx;
+  padding: 0 34rpx;
+  float: right;
+  border: 1rpx solid red;
+  border-radius: 50rpx;
+  color: red;
+}
+.in_2{
+  height: 88rpx;
+  line-height: 88rpx;
+  display: flex;
+  font-size: 24rpx;
+  background: #fff;
+}
+.in_2 view{
+  text-align: center;
+  width: 118rpx;
+  margin: 0 66rpx;
+}
+.active{
+  border-bottom:  4rpx solid red;
+  color: red;
+}

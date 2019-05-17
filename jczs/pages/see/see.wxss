@@ -1,0 +1,28 @@
+.nav{
+  display: flex;
+}
+.nav view{
+  width: 150rpx;
+  line-height: 82rpx;
+  font-size: 24rpx;
+  text-align: center;
+}
+.select{
+  color: #e64340;
+  border-bottom: 5px solid #e64340;
+}
+.normal{
+  color: #3c3c3c;
+  border-bottom: 5px solid #fff;
+}
+.in_1{
+  text-align: center;
+  font-size: 24rpx;
+  
+}
+.in_1 image{
+  margin-top: 172rpx;
+  width: 215rpx;
+  height: 215rpx;
+  margin-bottom: 50rpx;
+}

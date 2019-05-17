@@ -1,0 +1,34 @@
+<view class='in_main'>
+  <view class='in_1'>
+    新建收货地址<image src='../image/index/8.gif'></image>
+  </view>
+  <view class='in_2'><image src='../image/6.gif'></image></view>
+  <view class='in_3'>
+    <view>{{shop}}</view>
+    <view><image src='{{img}}'></image><text>共{{num}}件</text></view>
+    <view>配送方式<text>店铺自提</text><text>送货上门</text></view>
+    <view>送达时间<image src='../image/index/8.gif'></image></view>
+  </view>
+  <view class='in_4'>
+    <view>会员卡<image src='../image/index/8.gif'></image><text>暂无可用会员卡</text></view>
+    <view>优惠券<image src='../image/index/8.gif'></image><text>暂无可用优惠券</text></view>
+    <view>礼品卡<image src='../image/index/8.gif'></image><text>暂无可用礼品卡</text></view>
+    <view>储值余额 共￥0.00<switch type='switch' style='position:absolute;right:10px;'></switch></view>
+  </view>
+  <view class='in_4'>
+    <view>商品金额<text class='red'>￥{{price}}</text></view>
+    <view>配送费<text class='red'>+￥0.00</text></view>
+    <view>包装费<text class='red'>+￥0.00</text></view>
+    <view>会员卡<text class='red'>+0积分</text></view>
+    <view>优惠券<text class='red'>-￥0.00</text></view>
+    <view>礼品卡<text class='red'>-￥0.00</text></view>
+    <view>储值抵扣<text class='red'>-￥0.00</text></view>
+    <view>实付<text class='red'>￥{{sum}}</text></view>
+  </view>
+  <view class='in_4'>
+    <view>买家备注 订单备注(30字以内)</view>
+  </view>
+  <view class='in_8'>
+  <text>合计金额 <text>￥{{sum}}</text></text><button>去支付</button>
+  </view>
+</view>
